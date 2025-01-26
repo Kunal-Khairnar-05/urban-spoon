@@ -8,8 +8,8 @@ import SplashCursor from "@/components/ui/splashcursort"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Gourmet Delights Restaurant",
-  description: "Experience culinary excellence at Gourmet Delights",
+  title: "Urban Spoon",
+  description: "Experience culinary excellence at Urban Spoon",
 }
 
 const bgStyle = {
@@ -29,7 +29,7 @@ export default function RootLayout({
       <CartProvider>
         <html lang="en">
           <body className={inter.className}>
-          {/* <SplashCursor /> */}
+          <SplashCursor />
           <div style={bgStyle} className="overflow-x-hidden">
           <div className="min-h-screen bg-white/50 backdrop-blur-3xl">
             <Header />

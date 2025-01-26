@@ -66,7 +66,7 @@ export default function CheckoutPage() {
           <div className="mt-6 border-t pt-4">
             <div className="flex justify-between text-xl font-bold text-gray-900">
               <span>Total:</span>
-              <span>${total.toFixed(2)}</span>
+              <span>₹{total.toFixed(2)}</span>
             </div>
           </div>
         </div>
